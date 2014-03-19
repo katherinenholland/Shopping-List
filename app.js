@@ -7,15 +7,15 @@ $(document).ready(function() {
 	$('.addItems').val('');
 
 	$('.addItems').keypress(function(e){
-		if(e.which==13){
-			addItem();
+		if(e.which==13) {
+			addItems();
 			e.preventDefault();
 		}
 		})
 
 }); //end of Add Items and select items
 $('.removeButton').click(function() {
-	$('box:checked').remove();
+	$(this).remove('box:checked');
 	})//remove list items
 
 

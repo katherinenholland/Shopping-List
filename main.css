@@ -50,9 +50,6 @@ h1 {
 
 }
 
-table, tr, td {
-	border: 1px solid black;
-}
 
 .button {
 	padding: 2%;
@@ -99,9 +96,9 @@ table, tr, td {
 
 .removeButton {
 	margin-top: 20px;
-	padding: 2%;
-	height: 20px;
-	width: 50px;
+	padding: 1%;
+	height: 10px;
+	width: 45px;
 	background-color: #028ABB;
 	color: white;
 	font-family: sans-serif;
