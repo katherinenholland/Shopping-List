@@ -1,0 +1,117 @@
+* {
+	font-weight: bold;
+	margin: auto;
+	text-align: center;
+	
+}
+
+
+body {
+	background: url('chevronbw.jpg');
+	background-repeat: none;
+	background-size: cover;
+	color: #696969;
+	text-shadow: 2px 2px #696969;
+	
+
+}
+
+header {
+	font-size: 130px;
+	margin-top: 80px;
+	margin-bottom: 80px;
+	color: #028ABB;
+	font-family: 'Arizonia', cursive;
+	text-shadow: 2px 2px #696969;
+	
+}
+
+h1 {
+	margin-top: 0px;
+}
+
+
+
+.container {
+	background-color: #F2F2F2;
+	height: 40%;
+	width: 20%;
+	margin-top: 20px;
+	margin-bottom: 80px;
+	border-radius: 10%;
+	box-shadow: 2px 2px 2px 1px #696969;
+	display: inline-block;
+	padding-top: 0;
+	padding: 2%;
+	border: 6px solid #028ABB;
+	white-space: none;
+	color: #028ABB;
+	font-family: sans-serif;
+
+}
+
+table, tr, td {
+	border: 1px solid black;
+}
+
+.button {
+	padding: 2%;
+	margin-top: 20px;
+	border-radius: 5%;
+	height: 20px;
+	width: 50px;
+	background-color: #028ABB;
+	color: white;
+	font-family: sans-serif;
+}
+
+.container2 {
+	padding-top: 0;
+	margin-top: 30px;
+	white-space: none;
+	width: 30%;
+	height: 40%;
+	color: #028ABB;
+	font-family: sans-serif;
+
+}
+
+.addItems {
+	color: black;
+
+}
+
+.list {
+	color: black;
+
+}
+
+.button2 {
+	height: 10%;
+	width: 10%;
+	color: black;
+	background-color: white;
+}
+
+.complete {
+	text-decoration: line-through;
+}
+
+.removeButton {
+	margin-top: 20px;
+	padding: 2%;
+	height: 20px;
+	width: 50px;
+	background-color: #028ABB;
+	color: white;
+	font-family: sans-serif;
+}
+
+footer {	
+	position: fixed;
+	bottom: 0;
+	font-family: 'Arizonia', cursive;
+	text-shadow: none;
+	
+
+}
