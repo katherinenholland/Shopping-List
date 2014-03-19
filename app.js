@@ -15,7 +15,7 @@ $(document).ready(function() {
 
 }); //end of Add Items and select items
 $('.removeButton').click(function() {
-	$(this).remove('box:checked');
+	$(this).remove('box: checked');
 	})//remove list items
 
 
