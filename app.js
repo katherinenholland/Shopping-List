@@ -1,14 +1,11 @@
 $(document).ready(function() {
 	$('.button').click(function() {
-		var box = '<input type="checkbox"/>';
+		//var box = '<input type="checkbox"/>';
 
-		$('.container2').append('<div>' + $('.addItems').val() + '</div>');
+		$('.container2').append('<a href=#><div>' + $('.addItems').val() + '</div></a>');
 
 		//$('.list').append('<tr><td>' + box + $('.addItems').val() + '</td></tr>');
 
-		$('.container2 div').click(function() {
-			$(this).toggle('.complete');
-		})
 	//'box' is our newly created checkbox
 	//let's bind the click event handler with an unnamed function
 	//$(box).click(function() {
@@ -19,16 +16,21 @@ $(document).ready(function() {
 
 	$('.addItems').val('');
 
-	
+	$('a').click(function() {
+	alert('yes');
+		$(this).toggleClass('complete');
+})
    
 }); //end of Add Items and select items
+
+
 
 //$('input[type="checkbox"]').click(function() {
 	//$(this).closest('tr').toggle('.complete');
 //})
 $('.removeButton').click(function() {
 	$('.complete').remove();
-})
+});
 //$('.removeButton').click(function() {
 	//alert('yes');
 	//$('label:checked').remove();
