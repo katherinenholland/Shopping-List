@@ -17,7 +17,6 @@ $(document).ready(function() {
 	$('.addItems').val('');
 
 	$('a').click(function() {
-	alert('yes');
 		$(this).toggleClass('complete');
 })
    
