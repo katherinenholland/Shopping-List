@@ -1,12 +1,9 @@
 $(document).ready(function() {
 	$('.button').click(function() {
-		$('.container2').append('<a href=#><div>' + $('.addItems').val() + '</div></a>');
+	var item = $('.container2').append('<a href=#><div>' + $('.addItems').val() + '</div></a>');	
 		$('.addItems').val('');
-	
-
-
-$('a div').click(function() {
-	$(this).toggleClass('complete');
+		$(item).click(function() {
+			$(this).toggleClass('complete');
 }); //end of toggle list items
 
 
